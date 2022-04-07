@@ -15,9 +15,10 @@ export default class MyWork extends Component {
           <div className="row g-0">
             <div className="col-md-4 col-lg-4" id="col1">
               <img
-                src="images/model1.jpg"
+                src="images/newmodel1.jpg"
                 alt=""
                 className="img-fluid photos"
+                id="model1"
               />
             </div>
             <div className="col-md-4 col-lg-4" id="cols">

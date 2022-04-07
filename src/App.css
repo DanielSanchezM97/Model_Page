@@ -276,9 +276,9 @@
 @media screen and (max-width: 480px) {
   body {
     zoom: 0.7;
-    /* -moz-transform: scale(0.7);
-    -moz-transform-origin: 0 0; */
-    transform: scale(0.7);
-    transform-origin: 0 0;
+    -moz-transform: scale(0.7);
+    -moz-transform-origin: 0 0;
+    /* transform: scale(0.7);
+    transform-origin: 0 0; */
   }
 }

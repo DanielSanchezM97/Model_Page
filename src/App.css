@@ -1,3 +1,7 @@
+body {
+  scroll-behavior: smooth;
+}
+
 .img-test {
   height: 400px;
 }

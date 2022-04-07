@@ -5,12 +5,14 @@ export default class NavBar extends Component {
     super(props);
     this.state = {
       menu: false,
+      showing: false,
     };
   }
 
   toggleMenu = () => {
     this.setState({
       menu: !this.state.menu,
+      showing: !this.state.showing,
     });
   };
 
@@ -22,7 +24,12 @@ export default class NavBar extends Component {
         <nav className="navbar navbar-expand-lg bg-light navbar-light py-2 fixed-top">
           <div className="container">
             <a href="#home" className="navbar-brand">
-              <h2 className="title">Paula Martinez</h2>
+              <h2
+                className="title"
+                onClick={this.state.showing ? this.toggleMenu : null}
+              >
+                Paula Martinez
+              </h2>
             </a>
 
             <button
@@ -36,22 +43,38 @@ export default class NavBar extends Component {
             <div className={"collapse navbar-collapse " + show}>
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
-                  <a href="#home" className="nav-links">
+                  <a
+                    href="#home"
+                    className="nav-links"
+                    onClick={this.state.showing ? this.toggleMenu : null}
+                  >
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#work" className="nav-links">
+                  <a
+                    href="#work"
+                    className="nav-links"
+                    onClick={this.state.showing ? this.toggleMenu : null}
+                  >
                     My Work
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#AboutMe-Container" className="nav-links">
+                  <a
+                    href="#AboutMe-Container"
+                    className="nav-links"
+                    onClick={this.state.showing ? this.toggleMenu : null}
+                  >
                     About Me
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="#Contact" className="nav-links">
+                  <a
+                    href="#Contact"
+                    className="nav-links"
+                    onClick={this.state.showing ? this.toggleMenu : null}
+                  >
                     Contact Me
                   </a>
                 </li>
@@ -62,6 +85,7 @@ export default class NavBar extends Component {
                       target="_blank"
                       rel="noreferrer"
                       className="nav-icons"
+                      onClick={this.state.showing ? this.toggleMenu : null}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -81,6 +105,7 @@ export default class NavBar extends Component {
                       target="_blank"
                       rel="noreferrer"
                       className="nav-icons"
+                      onClick={this.state.showing ? this.toggleMenu : null}
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"

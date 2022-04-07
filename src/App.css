@@ -79,6 +79,10 @@
   height: 100%;
 }
 
+.photos {
+  max-height: 800px;
+}
+
 /* About Me Section */
 
 #AboutMe-Container {

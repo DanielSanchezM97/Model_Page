@@ -1,0 +1,51 @@
+.myWork-paragraph {
+  font-size: 20px;
+}
+
+#cols {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#model1 {
+  height: 100%;
+}
+
+#model2 {
+  height: 100%;
+}
+
+#model3 {
+  height: 100%;
+}
+
+#model5 {
+  height: 100%;
+}
+
+.photos {
+  max-height: 800px;
+}
+
+@media screen and (max-width: 768px) {
+  .myWork-text {
+    font-size: 25px;
+  }
+
+  .myWork-paragraph {
+    font-size: 15px;
+    padding: 0 50px;
+  }
+
+  #cols {
+    padding: 15px 60px;
+  }
+
+  #col1 {
+    padding: 0 60px 15px 60px;
+  }
+
+  .photos {
+    border: 3px solid black;
+  }
+}

@@ -1,0 +1,47 @@
+#AboutMe-Container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f5f5f5;
+  padding-top: 60px;
+}
+
+#AboutMe-Photo {
+  height: 300px;
+  width: auto;
+}
+
+.AboutMe-title {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.AboutMe-subtitle {
+  font-size: 23px;
+  font-weight: 400;
+  font-family: "Lora", serif;
+}
+
+.AboutMe-paragraph {
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  font-family: "Lora", serif;
+}
+
+@media screen and (max-width: 768px) {
+  #AboutMe-Photo {
+    height: 200px;
+    width: auto;
+  }
+
+  .AboutMe-title {
+    font-size: 32px;
+  }
+
+  .AboutMe-subtitle {
+    font-size: 18px;
+  }
+
+  .AboutMe-paragraph {
+    font-size: 16px;
+  }
+}

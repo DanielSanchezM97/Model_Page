@@ -1,10 +1,15 @@
-import "./App.css";
+import "./App.scss";
 import React from "react";
 import NavBar from "./Components/NavBar";
 import HeroSection from "./Components/HeroSection";
 import AboutMe from "./Components/AboutMe";
 import MyWork from "./Components/MyWork";
 import Footer from "./Components/Footer";
+import "./styles/NavBar.scss";
+import "./styles/HeroSection.scss";
+import "./styles/MyWork.scss";
+import "./styles/AboutMe.scss";
+import "./styles/Footer.scss";
 
 class App extends React.Component {
   render() {

@@ -1,0 +1,40 @@
+.nav-links {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 10px;
+  float: left;
+  font-weight: 600;
+  border-radius: 10px;
+  /* margin-left: 10px; */
+}
+
+.nav-icons {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  float: right;
+  border-radius: 10px;
+}
+
+.nav-links:hover {
+  background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 768px) {
+  /* NavBar */
+  .title {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  #hamburger {
+    font-size: 15px;
+  }
+
+  .nav-links {
+    font-size: 15px;
+    margin: 2px 0;
+  }
+}

@@ -27,7 +27,7 @@
   max-height: 800px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .myWork-text {
     font-size: 25px;
   }
@@ -54,5 +54,17 @@
 @media screen and (min-width: 390px) {
   .photos {
     max-height: none;
+  }
+}
+
+// ! xs Devices like the galaxy fold
+
+@media screen and (max-width: 300px) {
+  .myWork-text {
+    font-size: 23px;
+  }
+
+  .myWork-paragraph {
+    font-size: 13px;
   }
 }

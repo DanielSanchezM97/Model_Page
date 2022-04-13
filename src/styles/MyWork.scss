@@ -5,32 +5,43 @@
 #cols {
   padding-right: 0;
   padding-left: 0;
+  max-height: 700px;
 }
 
-#model1 {
-  object-fit: cover;
+#col1 {
+  max-height: 700px;
+}
+
+#col1 img {
   height: 100%;
 }
 
-#model2 {
-  object-fit: cover;
+#cols img {
   height: 100%;
 }
+// #model1 {
+//   object-fit: cover;
+//   height: 100%;
+// }
 
-#model3 {
-  object-fit: cover;
-  height: 100%;
-}
+// #model2 {
+//   object-fit: cover;
+//   height: 100%;
+// }
 
-#model5 {
-  object-fit: cover;
-  height: 100%;
-}
+// #model3 {
+//   object-fit: cover;
+//   height: 100%;
+// }
+
+// #model5 {
+//   object-fit: cover;
+//   height: 100%;
+// }
 
 .photos {
-  // max-height: 800px;
-  // // max-height: fit-content;
-  // height: 100%;
+  max-height: 800px;
+  // max-height: fit-content;
 }
 
 @media screen and (max-width: 767px) {

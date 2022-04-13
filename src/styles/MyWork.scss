@@ -50,3 +50,9 @@
     max-height: 625px;
   }
 }
+
+@media screen and (min-width: 400px) {
+  .photos {
+    max-height: none;
+  }
+}

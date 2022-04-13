@@ -8,16 +8,15 @@
 }
 
 #model1 {
-  height: 100%;
-  max-height: fit-content;
+  max-height: 700px;
 }
 
 #model2 {
-  height: 100%;
+  max-height: 700px;
 }
 
 #model3 {
-  height: 100%;
+  max-height: 700px;
 }
 
 #model5 {
@@ -25,8 +24,9 @@
 }
 
 .photos {
-  max-height: 800px;
-  // max-height: fit-content;
+  // max-height: 800px;
+  // // max-height: fit-content;
+  height: 100%;
 }
 
 @media screen and (max-width: 767px) {

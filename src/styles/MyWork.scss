@@ -64,7 +64,7 @@
 
   .photos {
     border: 3px solid black;
-    max-height: min-content;
+    max-height: 950px;
     // max-height: fit-content;
   }
 
@@ -77,11 +77,11 @@
   }
 }
 
-// @media screen and (min-width: 390px) {
-//   .photos {
-//     max-height: none;
-//   }
-// }
+@media screen and (max-width: 576px) {
+  .photos {
+    max-height: 625px;
+  }
+}
 
 @media screen and (min-height: 800px) {
   .photos {
@@ -89,11 +89,11 @@
   }
 }
 
-@media screen and (max-height: 800px) {
-  .photos {
-    max-height: 625px;
-  }
-}
+// @media screen and (max-height: 800px) {
+//   .photos {
+//     max-height: 625px;
+//   }
+// }
 
 // ! xs Devices like the galaxy fold
 

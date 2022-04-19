@@ -89,6 +89,12 @@
   }
 }
 
+@media screen and (max-height: 800px) {
+  .photos {
+    max-height: 625px;
+  }
+}
+
 // ! xs Devices like the galaxy fold
 
 @media screen and (max-width: 300px) {

@@ -83,6 +83,18 @@
   }
 }
 
+@media screen and (min-width: 380px), (max-width: 480px) {
+  .photos {
+    max-height: 850px;
+  }
+}
+
+@media screen and (min-width: 690px), (max-width: 767px) {
+  .photos {
+    max-height: 980px;
+  }
+}
+
 @media screen and (min-height: 800px) {
   .photos {
     max-height: 700px;

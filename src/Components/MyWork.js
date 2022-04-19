@@ -12,54 +12,48 @@ export default class MyWork extends Component {
               history with several great companies and talented people.
             </p>
           </div>
-          <div className="row g-0">
-            <div className="col-md-4 col-lg-4" id="col1">
-              <img
-                src="images/newmodel1.jpg"
-                alt=""
-                className="img-fluid photos"
-                id="model1"
-              />
+          <div className="imagesC">
+            <div className="row g-0">
+              <div className="col-md-4 col-lg-4" id="col1">
+                <img
+                  src="ResizedModels/newmodel1.jpg"
+                  alt=""
+                  className="photos"
+                  id="model1"
+                />
+              </div>
+              <div className="col-md-4 col-lg-4" id="cols">
+                <img
+                  src="ResizedModels/model-2.jpg"
+                  alt=""
+                  className="photos"
+                  id="model2"
+                />
+              </div>
+              <div className="col-md-4 col-lg-4" id="cols">
+                <img
+                  src="ResizedModels/model3.jpg"
+                  alt=""
+                  className="photos"
+                  id="model3"
+                />
+              </div>
             </div>
-            <div className="col-md-4 col-lg-4" id="cols">
-              <img
-                src="images/model2.jpg"
-                alt=""
-                className="img-fluid photos"
-                id="model2"
-              />
-            </div>
-            <div className="col-md-4 col-lg-4" id="cols">
-              <img
-                src="images/model3.jpg"
-                alt=""
-                className="img-fluid photos"
-                id="model3"
-              />
-            </div>
-          </div>
-          <div className="row g-0">
-            <div className="col-md-4 col-lg-4" id="cols">
-              <img
-                src="images/model4.jpg"
-                alt=""
-                className="img-fluid photos"
-              />
-            </div>
-            <div className="col-md-4 col-lg-4" id="cols">
-              <img
-                src="images/model5.jpg"
-                alt=""
-                className="img-fluid photos"
-                id="model5"
-              />
-            </div>
-            <div className="col-md-4 col-lg-4" id="cols">
-              <img
-                src="images/model6.jpg"
-                alt=""
-                className="img-fluid photos"
-              />
+            <div className="row g-0">
+              <div className="col-md-4 col-lg-4" id="cols">
+                <img src="ResizedModels/model4.jpg" alt="" className="photos" />
+              </div>
+              <div className="col-md-4 col-lg-4" id="cols">
+                <img
+                  src="ResizedModels/model5.jpg"
+                  alt=""
+                  className="photos"
+                  id="model5"
+                />
+              </div>
+              <div className="col-md-4 col-lg-4" id="cols">
+                <img src="ResizedModels/model6.jpg" alt="" className="photos" />
+              </div>
             </div>
           </div>
         </div>

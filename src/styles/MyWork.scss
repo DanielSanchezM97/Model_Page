@@ -5,11 +5,11 @@
 #cols {
   padding-right: 0;
   padding-left: 0;
-  max-height: 700px;
+  max-height: 800px;
 }
 
 #col1 {
-  max-height: 700px;
+  max-height: 800px;
 }
 
 #col1 img {
@@ -45,7 +45,6 @@
 }
 
 @media screen and (max-width: 767px) {
-  // ! small than 768px
   .myWork-text {
     font-size: 25px;
   }
@@ -66,7 +65,8 @@
   .photos {
     border: 3px solid black;
     // max-height: 625px;
-    max-height: fit-content;
+    max-height: calc(100vh - 10%);
+    // max-height: fit-content;
   }
 
   #cols {
@@ -79,9 +79,8 @@
 }
 
 // @media screen and (min-width: 390px) {
-//   // ! big than 390px
 //   .photos {
-//     max-height: none;
+//     max-height: calc(100vh);
 //   }
 // }
 

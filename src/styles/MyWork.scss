@@ -64,7 +64,7 @@
 
   .photos {
     border: 3px solid black;
-    max-height: 625px;
+    max-height: min-content;
     // max-height: fit-content;
   }
 
@@ -78,9 +78,14 @@
 }
 
 // @media screen and (min-width: 390px) {
-@media screen and (min-width: 415px) {
+//   .photos {
+//     max-height: none;
+//   }
+// }
+
+@media screen and (min-height: 800px) {
   .photos {
-    max-height: none;
+    max-height: 700px;
   }
 }
 

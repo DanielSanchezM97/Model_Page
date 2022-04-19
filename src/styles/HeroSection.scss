@@ -23,6 +23,10 @@
 .main-model-image {
   height: auto;
   width: 100%;
+
+  // ? Properties added 19/4/2022
+  object-fit: fill;
+  max-height: 100%;
 }
 
 @media screen and (max-width: 980px) {
